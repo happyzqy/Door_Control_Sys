@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:gravity="right"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/tim_query"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_weight="0.01"
+        android:background="@drawable/button_bg2"
+        android:gravity="center"
+        android:text="@string/button_query" />
+
+    <Button
+        android:id="@+id/log_fmq"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_weight="0.01"
+        android:background="@drawable/button_bg2"
+        android:gravity="center"
+        android:text="@string/fmq" />
+
+    <Button
+        android:id="@+id/log_led"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_weight="0.01"
+        android:text="@string/LED" />
+    
+    <Button
+        android:id="@+id/nfc_reg"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_weight="0.01"
+        android:text="绑定NFC" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center|center_vertical"
+        android:orientation="horizontal" >
+        
+	    <Button
+	        android:id="@+id/open_door"
+	        android:layout_width="120dp"
+	        android:layout_height="30dp"
+	        android:background="@drawable/button_bg"
+	        android:textColor="@color/white"
+	        android:text="开 门" />
+	    
+	    <Button
+	        android:id="@+id/close_door"
+	        android:layout_width="120dp"
+	        android:layout_height="30dp"
+	        android:background="@drawable/button_bg"
+	        android:textColor="@color/white"
+  	        android:layout_marginLeft="14dp"        
+	        android:text="关 门" />
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/tim_return"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button_bg"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/white"
+        android:text="@string/button_return" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.12" />
+
+
+</LinearLayout>

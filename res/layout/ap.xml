@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@android:color/white"
+	android:orientation="vertical"
+	android:padding="16dp" >
+	
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="76dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/logo" />
+
+   	<!--账号 -->
+	<EditText
+		 android:id="@+id/account"
+		 android:layout_width="fill_parent"
+		 android:layout_height="64px"
+		 android:textSize="24px"
+		 android:hint="请输入账号…"/>
+  
+	<!--密码 -->
+ 	<EditText
+		 android:id="@+id/password"
+		 android:layout_width="fill_parent"
+		 android:layout_height="64px"
+		 android:textSize="24px"
+		 android:inputType="textPassword"
+		 android:hint="请输入密码…"/>
+ 	
+ 	<!--密码 -->
+ 	<EditText
+		 android:id="@+id/password2"
+		 android:layout_width="fill_parent"
+		 android:layout_height="64px"
+		 android:layout_marginBottom="12dp"
+		 android:textSize="24px"
+		 android:inputType="textPassword"
+		 android:hint="确认密码…"/>
+ 	
+ 	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        
+	    <Button
+	        android:id="@+id/ap_register_btn"
+	        android:layout_width="55dp"
+	        android:layout_height="30dp"
+	        android:background="@drawable/button_bg"
+	        android:layout_marginLeft="8dp"
+	        android:textColor="@color/white"
+	        android:text="注 册" />
+	    
+	    <Button
+	        android:id="@+id/ap_return_btn"
+	        android:layout_width="55dp"
+	        android:layout_height="30dp"
+	        android:background="@drawable/button_bg"
+	        android:layout_marginLeft="160dp"
+	        android:textColor="@color/white"
+	        android:text="返 回" />
+    </LinearLayout>
+
+	<ImageView 
+	        android:id="@+id/iv_qr_image"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:layout_gravity="center"/>
+
+</LinearLayout>

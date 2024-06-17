@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World</string>
+    <string name="app_name"><center>Door Control System</center></string>
+    <string name="input_please">请输入账号密码</string>
+    <string name="display_account">请输入账号</string>
+    <string name="display_password">请输入密码</string>
+    <string name="button_login">登录</string>
+    <string name="first_dis">请选择门禁身份验证方式</string>
+    <string name="first_nfc">NFC</string>
+    <string name="first_ap">账号密码</string>
+    <string name="button_register">注册</string>
+    <string name="button_return">返回</string>
+    <string name="first_code">二维码</string>
+    <string name="button_query">询问</string>
+    <string name="fmq">蜂鸣器</string>
+    <string name="LED">LED灯</string>
+    
+    <string name="login_button">登录</string>
+    <string name="remember_me">记住账号密码</string>
+    <string name="username">账号</string>
+    <string name="password">密码</string>
+    <string name="img_des">logo</string>
+    <string name="NFC">绑定NFC</string>
+    
+
+</resources>
